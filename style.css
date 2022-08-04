@@ -3,7 +3,7 @@ body{
   text-align: center;
   font-family:'Merriweather',serif;
   color: #40514E;
-  z-index:999;
+  transition: all 0.3s ease;
 }
 
 p{
