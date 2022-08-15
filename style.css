@@ -1,0 +1,179 @@
+body{
+   margin:0PX;
+  text-align: center;
+  font-family:'Merriweather',serif;
+  color: #40514E;
+  width:100%;
+}
+
+p{
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+    line-height: 2;
+}
+
+h1{
+   color: #66BFBF;
+}
+
+h2{
+   color: #66BFBF;
+}
+
+h3{
+  color: #11999E;
+}
+
+hr{
+  border: dotted;
+  color: #D3D3D3;
+  border-bottom: none;
+  width: 3%;
+  border-width: 5px;
+  margin:70px auto;
+}
+
+.h{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2rem;
+  color:#66BFBF;
+}
+
+.y{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 20px;
+  color:#66BFBF;
+  font-weight: normal;
+}
+
+.nav{
+  overflow:hidden;
+  background-color:  #11999E;
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+}
+
+.nav  a{
+   float: right;
+   text-decoration: none;
+   padding: 14px;
+   font-family:cursive;
+   color: blue;
+}
+
+.nav a:hover{
+     color: red;
+}
+
+.nav a.active{
+  color: #EAF5F6;
+}
+
+.top-container{
+    background-color: #e4f6f6;
+}
+
+
+.middle-container .p{
+  margin:50px 0;
+}
+
+.middle-container p{
+    font-size: 20px;
+    font-family: serif;
+    overflow:hidden;
+}
+
+.bottom-container a{
+    text-decoration: none;
+    color:#90ee90;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin:20px 0px 0px;
+  padding:50px 0 20px;
+}
+
+
+.bottom-container p{
+  color:#EAF6F6;
+  font-size: 13px;
+  font-family:inherit;
+  padding-top: 10px;
+}
+
+.bottom-container a:hover{
+  color:#EAF6F6;
+}
+
+.po{
+   position: absolute;
+   right: 90%;
+}
+
+.cloud-1{
+      margin-top: 100px;
+      margin-left: 800px;
+}
+
+.cloud-2{
+  position: absolute;
+}
+
+.p{
+  width: 300px;
+  height: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+ .skill-row .img-1{
+       display: inline-block;
+       width: 40%;
+       float: left;
+       padding-right: 20px;
+}
+
+.skill-row img{
+  display: inline-block;
+  width: 40%;
+  float: right;
+  padding-left: 20px;
+
+}
+
+.intro{
+  width: 30%;
+  margin:auto;
+}
+
+.btn{
+  border: none;
+  background-color: #11cdd4;
+  border-radius: 4px;
+  font-family:sans-serif;
+  padding: 10px;
+}
+
+.f{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link{
+  margin-right: 20px;
+}
+
+.mountain{
+  background-color: #e4f6f6;
+  height: 50%;
+  width: 60%;
+  padding-top: 150px;
+}
